@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #202020;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 22px 0;
+    background-color: #f1f1f1;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.nav li {
+    padding: 0 11px;
+}
+
+.nav-link {
+    color: #202020;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.login {
+    color: #202020;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+/*Главная секция*/
+
+.hero {
+    padding-top: 62px;
+    padding-bottom: 71px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+}
+
+.hero-image {
+    margin-right: 122px;
+}
+
+.author {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+
+.title {
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.subtitle {
+    display: block;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 48px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-text {
+    flex-basis: 45%;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.pricetag {
+    font-size: 55px;
+    flex-basis: 45%;
+}
+
+.favorites {
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 22px 50px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-read {
+    background-color: #f89c02;
+    color: #ffffff;
+    border: 2px solid #f89c02;
+    margin-right: 20px;
+}
+
+.btn-buy {
+    color: #f89c02;
+    border: 2px solid #f89c02;
+    text-decoration: none;
+}
